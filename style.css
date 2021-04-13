@@ -1,0 +1,279 @@
+
+.nav{
+	background-color:blue;
+	height:80px;
+	
+}
+h1{
+	color:white;
+	
+	font-family:Blackadder ITC;
+	text-align:center;
+}
+ul{
+	list-style:none;
+	padding:14px 16px;
+	
+	
+	
+}
+input[type= "text"]{
+	background-color:white;
+	border-radius:10px;
+}
+li{
+	float:left;
+	
+}
+li a{
+	font-size:15px;
+	margin-top:30px;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+ ul:hover{
+	color:red;
+}
+h1:hover
+{
+	color:black;
+	color:red;
+}
+h2{ 
+    
+    color:blue;
+	font-size:20px;
+	font-family:Elephant;
+	text-align:center;
+	
+}
+#front{
+	background:red;
+	margin-left:180px;
+	padding:10px;
+	font-size:20px;
+	border:2px solid red;
+	text-align:center;
+	color:yellow;
+	
+	
+}
+#offer{
+	float:right;
+	margin-right:350px;
+	margin-bottom:150px;
+	
+}
+#shopnow{
+	float:left;
+	
+}
+#free{
+	float:right;
+	margin-right:350px;
+}
+.home1{
+	
+	height:1000px;
+	background:url("img1.jpeg");
+	background-repeat:no-repeat;
+	margin-left:350px;
+}
+body{
+	background:-webkit-linear-gradient(red,blue,green,yellow,pink);
+	
+}
+.high{
+	background:red;
+	
+}
+p{
+	text-align:justify;
+}
+.about1{
+	background:url("about.gif");
+	height:520px;
+	
+	text-align:center;
+	padding:15px;
+}
+h3{
+	text-align:center;
+	color:green;
+	font-size:35px;
+	margin-left:35px;
+}
+h4{
+	color:red;
+	font-size:20px;
+	float:left;
+}
+.shop1{
+	height:700px;
+	width:600px;
+	background:white;
+}
+h6{
+	color:red;
+	font-size:20px;
+	padding:10px;
+}
+.box{
+	height:100px;
+	width:100px;
+	border:2px solid blue;
+}
+#box1 {
+	margin:0;
+	display:inline;
+	float:left;
+	margin-left:50px;
+	
+}
+#box2 {
+	margin:0;
+	display:inline;
+	float:right;
+	margin-right:30px;
+	
+	
+	
+}
+
+#box3 {
+	margin:0;
+	display:inline;
+	float:right;
+	margin-right:30px;
+	
+}
+#box4 {
+	margin:0;
+	display:inline;
+	float:right;
+	margin-right:30px;
+	
+}
+.box p{
+	text-align:center;
+}
+#buy{
+	margin-top:40px;
+	background-color:#FFA07A;
+	width:400px;
+	height:30px;
+	margin-left:120px;
+	text-align:center;
+	padding:15px;
+}
+#cart{
+	background-color:#FA8072;
+	width:400px;
+	height:30px;
+	margin-left:120px;x
+	text-align:center;
+	padding:15px;
+}
+#contact{
+	width:300px;
+	height:300px;
+	background-color:#FA8072;
+	padding:15px;
+}
+@media screen and (max-width: 768px) 
+{
+ 
+ body{
+		
+		width:100%;
+		float:none;
+	}
+	.nav{
+		padding:0;
+		margin:0;
+		width:100%;
+		float:none;
+		
+		
+		
+	}
+	.home1{
+		margin:0;
+		height:100%;
+		width:100%;
+		float:none;
+		text-align:center;
+	}
+		 h1 h2 {
+		margin:0;
+		height:100%;
+		width:100%;
+		float:none;
+		text-align:center;
+	}
+	#offer{
+		margin-top:50px;
+		display:none;
+		float:none;
+		text-align:center;
+		
+	}
+	#free{
+		margin:0;
+		
+		width:100%;
+		float:none;
+	}
+	#front{
+		margin:0;
+		text-align:center;
+		width:100%;
+		float:none;
+	}
+	h2{
+	text-align:center;	
+	}
+	#shopnow{
+		display:none;
+	}
+	.shop1{
+		height:850px;
+		margin:0;
+		text-align:center;
+		width:100%;
+		float:none;
+		
+	}
+	
+	#buy{
+		margin-top:10%;
+		margin-left:0;
+		text-align:center;
+		width:98%;
+		float:left;
+	}
+	#cart{
+		margin-top:10%;
+		margin-left:0;
+		text-align:center;
+		width:98%;
+		float:left;
+	}
+	#box3{
+		margin-top:10px;
+	}
+	#box4{
+		margin-top:10px;
+	}
+	.contact{
+		margin:0;
+		text-align:center;
+		width:100%;
+		float:none;
+	}
+	
+	
+	
+	
+  }
